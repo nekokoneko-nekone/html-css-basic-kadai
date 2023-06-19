@@ -1,0 +1,39 @@
+body{
+  font-family:"Arial","Meiryo",sans-serif;
+
+  font-size: 20px;
+
+  text-align: center;
+}
+
+#parent p{
+  font-weight: bold;
+}
+
+h1{
+  font-family:"Josefin Sans",sans-serif;
+
+  font-size: 40px;
+
+  letter-spacing: 1.2em;
+  
+  text-shadow: 2px 1px 4px gray;
+
+  border: solid 3px rgb(115,115,114)
+}
+
+span.seotext3{
+  color: skyblue;
+}
+
+span.seotext4{
+  color:rgb(255,192,203);
+}
+
+.seotext1{
+  color: skyblue;
+}
+
+.seotext2{
+  color: rgb(255,192,203);
+}
