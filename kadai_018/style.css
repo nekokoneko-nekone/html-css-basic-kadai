@@ -1,0 +1,165 @@
+/* top　一番上の図形 */
+#top{
+  /* 背景色 */
+  background:#dcc9f4;
+
+  /* 横幅 */
+  width: 800px;
+
+  /* 上下に20pxの余白 */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  /* p要素を中央揃え */
+  text-align:center;
+
+}
+
+.top-child{
+  /* 横幅を親要素の20% */
+  width:20%;
+
+  /* 背景色 */
+  background:#ffd9df;
+
+  /* 横並び */
+  display: inline-block;
+}
+
+
+/* middle　真ん中の図形 */
+#middle{
+  /* 横幅 */
+  width: 800px;
+
+  /* 高さ */
+  height: 800px;
+
+  /* 上下に20pxの空白 */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  /* 中央揃え */
+  text-align: center;
+
+  /* 背景色 */
+  background: #ffd9df;
+
+  /* 親要素の絶対位置 */
+  position: relative;
+}
+
+#middle-child01{
+  /* 横幅 */
+  width: 200px;
+
+  /* 高さ */
+  height: 200px;
+
+  /* 背景色 */
+  background: #87ceed;
+  
+  /* positionプロパティ（要素をどのように配置するか） */
+  position: absolute;
+
+  /* positionプロパティとセットで使用 */
+  top: 100px;
+  left: 100px;
+
+}
+
+#middle-child02{
+  /* 横幅 */
+  width: 200px;
+
+  /* 高さ */
+  height: 200px;
+
+  /* 背景色 */
+  background: #87ceed;
+
+  /* positionプロパティ（要素をどのように配置するか） */
+  position: absolute;
+
+  /* positionプロパティとセットで使用 */
+  top: 300px;
+  left: 300px;
+
+}
+
+#middle-child03{
+  /* 横幅 */
+  width: 200px;
+
+  /* 高さ */
+  height: 200px;
+
+  /* 背景色 */
+  background: #87ceed;
+
+  /* positionプロパティ（要素をどのように配置するか） */
+  position: absolute;
+
+  /* positionプロパティとセットで使用 */
+  top: 500px;
+  left: 500px;
+
+}
+
+#bottom{
+  /* 横幅 */
+  width: 800px;
+
+  /* 高さ */
+  height: 300px;
+
+  /* 画面中央 */
+  text-align:center;
+
+  /* 背景色 */
+  background:#87ceed;
+
+  position: relative;
+}
+
+#bottom-child01{
+  /* 横幅 */
+  width: 400px;
+
+  /* 高さ */
+  height: 100px;
+
+  /* 背景色 */
+  background:#e5dcf0;
+}
+
+#bottom-child02{
+  /* 横幅 */
+  width: 400px;
+
+  /* 高さ */
+  height: 100px;
+
+  /* 背景色 */
+  background:#e5dcf0;
+
+  /* 左にずらす */
+  position:absolute;
+  left: 200px;
+}
+
+#bottom-child03{
+  /* 横幅 */
+  width: 400px;
+
+  /* 高さ */
+  height: 100px;
+
+  /* 背景色 */
+  background:#e5dcf0;
+
+  /* 左にずらす */
+  position:absolute;
+  left: 400px;
+  top: 200px;
+}
